@@ -21,7 +21,7 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
-console.log(`Watch on http://localhost:${devPort}/ haha`);
+console.log(`Watch on http://localhost:${devPort}/`);
 
 /**
  * Listen on provided port, on all network interfaces.
